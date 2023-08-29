@@ -1,0 +1,23 @@
+h1  {
+    background-color: aqua;
+    text-decoration: wavy;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.very-important{
+    color: blueviolet;
+}
+.Am{
+    color: rgb(148, 81, 211);
+}
+
+Body{
+    background-color: cornsilk;
+}
