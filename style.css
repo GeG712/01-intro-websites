@@ -14,10 +14,34 @@ h2{
 .very-important{
     color: blueviolet;
 }
+
+.very-important{
+    border: 5px green;
+}
+
 .Am{
     color: rgb(148, 81, 211);
 }
 
 Body{
     background-color: cornsilk;
+    text-align: center;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+#box {
+    background-color: cyan;
+    border: 20cap solid black;
+    margin: 30px auto;
+    padding: 10px ;
+    width: 800px;
+    height: 200px;
+}
+
+a:hover {
+    font-size: 2rem;
+  }
+
