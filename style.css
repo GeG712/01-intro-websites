@@ -42,6 +42,16 @@ Body{
 }
 
 a:hover {
-    font-size: 2rem;
+    transition: 1s left ease;
   }
+  
+  
 
+  .scale {
+    animation: scale-anim 1s both ease-in-out infinite alternate;
+  }
+  
+  @keyframes scale-anim {
+    from {transform: scale(10)}
+    to {transform: scale(100)}
+  }
